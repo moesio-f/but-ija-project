@@ -8,4 +8,6 @@ lib/json-simple-1.1.jar
 doc/*
 !doc/architektura.pdf
 
+.vscode/
+target/
 .idea/workspace.xml

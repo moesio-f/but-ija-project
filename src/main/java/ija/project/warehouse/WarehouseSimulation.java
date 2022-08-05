@@ -1,10 +1,5 @@
 package ija.project.warehouse;
 
-import ija.project.warehouse.ShelfRectangle;
-import ija.project.warehouse.NodeCircle;
-import ija.project.warehouse.Order;
-import ija.project.warehouse.PathFinder;
-
 import java.util.*;
 import java.lang.Math;
 import java.util.Map.Entry;
@@ -26,7 +21,6 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.geometry.Point2D;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.util.*;
 
@@ -34,7 +28,6 @@ import javafx.util.*;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 
 /** Controls the warehouse simulation. Sets the simulation time and speed. Loads
@@ -1150,6 +1143,7 @@ public class WarehouseSimulation extends Application {
     * @param args Program arguments.
     */
    public static void main(String args[]){
+      System.out.println(Arrays.toString(args));
       launch(args);
    }
 }
